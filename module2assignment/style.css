@@ -1,0 +1,112 @@
+h2{
+  padding-top: 40px;
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+}
+#inner{
+  text-align: center;
+  background-color: pink;
+  margin-left: 200px;
+  margin-top: -11px;
+  margin-right: -11px;
+  border:1px solid black;
+}
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+
+}
+#box{
+  background-color: grey;
+  margin: 40px;
+  padding: 10px;
+  width: 350px;
+  border: 1px solid black;
+  text-align: left;
+  float: left;
+}
+.box1{
+  background-color: grey;
+  margin:40px;
+  padding: 10px;
+  width: 350px;
+  border: 1px solid black;
+  text-align: left;
+  float: left;
+
+}
+.box2{
+  background-color: grey;
+  margin:40px;
+  padding: 10px;
+  width: 350px;
+  border: 1px solid black;
+  text-align: left;
+  float: left;
+}
+.inner{
+  text-align: center;
+  background-color: red;
+  color: white;
+  margin-left: 200px;
+  margin-top: -11px;
+  margin-right: -11px;
+  border:1px solid black;
+  align-items: center;
+
+}
+.box{
+  text-align: center;
+  background-color: yellow;
+  margin-left: 200px;
+  margin-top: -11px;
+  margin-right: -11px;
+  border:1px solid black;
+
+}
+@media (min-width:992px){
+  .media , .media1 , .media2 {
+    float:left;
+
+  }
+  .media{
+    width:33.3%;
+  }
+  .media1{
+    width:33.3%;
+  }
+  .media2{
+    width:33.3%;
+  }
+
+}
+@media (min-width: 768px) and max-width(991px){
+  .media , .media1 , .media2 {
+    float:left;
+  }
+  .media{
+    width: 25%;
+  }
+  .media1{
+    width: 50%;
+  }
+  .media2{
+    width: 50%;
+  }
+}
+@media (max-width:767px){
+  .media , .media1 , .media2 {
+    float:left;
+  }
+  .media{
+    width: 50%;
+  }
+  .media1{
+    width: 50%;
+  }
+  .media2{
+    width: 50%;
+  }
+}
